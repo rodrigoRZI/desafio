@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>5921992b-7bbc-46e9-8ae9-e9ca1d20db7f</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IP.Desafio.Application\IP.Desafio.Application.csproj" />
+    <ProjectReference Include="..\IP.Desafio.Infra.CrossCutting.IoC\IP.Desafio.Infra.CrossCutting.IoC.csproj" />
+  </ItemGroup>
+
+
+</Project>

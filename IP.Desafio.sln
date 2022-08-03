@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/IP.Desafio.Api", "src\IP.Desafio.API\IP.Desafio.Api.csproj", "{3A62D5CD-09C1-4896-ACB1-8F8B3CD5A159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/IP.Desafio.Tests", "src\IP.Desafio.Tests\IP.Desafio.Tests.csproj", "{B81BD58C-FF80-418D-9BA9-E6F98FF3E79D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/IP.Desafio.Application", "src\IP.Desafio.Application\IP.Desafio.Application.csproj", "{C9286573-3485-449C-802B-03FA300F1171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/IP.Desafio.Domain", "src\IP.Desafio.Domain\IP.Desafio.Domain.csproj", "{E8CFA251-631D-46FE-8277-2B899226EA7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/IP.Desafio.Infra.CrossCutting.IoC", "src\IP.Desafio.Infra.CrossCutting.IoC\IP.Desafio.Infra.CrossCutting.IoC.csproj", "{E7456CCF-6069-4D8C-9FDB-7F75668C45C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src/IP.Desafio.Domain.Core", "src\IP.Desafio.Domain.Core\IP.Desafio.Domain.Core.csproj", "{8F82C640-E134-44E1-A575-851E54D0F76B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A62D5CD-09C1-4896-ACB1-8F8B3CD5A159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A62D5CD-09C1-4896-ACB1-8F8B3CD5A159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A62D5CD-09C1-4896-ACB1-8F8B3CD5A159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A62D5CD-09C1-4896-ACB1-8F8B3CD5A159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81BD58C-FF80-418D-9BA9-E6F98FF3E79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81BD58C-FF80-418D-9BA9-E6F98FF3E79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81BD58C-FF80-418D-9BA9-E6F98FF3E79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81BD58C-FF80-418D-9BA9-E6F98FF3E79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9286573-3485-449C-802B-03FA300F1171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9286573-3485-449C-802B-03FA300F1171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9286573-3485-449C-802B-03FA300F1171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9286573-3485-449C-802B-03FA300F1171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CFA251-631D-46FE-8277-2B899226EA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CFA251-631D-46FE-8277-2B899226EA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CFA251-631D-46FE-8277-2B899226EA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CFA251-631D-46FE-8277-2B899226EA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7456CCF-6069-4D8C-9FDB-7F75668C45C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7456CCF-6069-4D8C-9FDB-7F75668C45C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7456CCF-6069-4D8C-9FDB-7F75668C45C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7456CCF-6069-4D8C-9FDB-7F75668C45C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F82C640-E134-44E1-A575-851E54D0F76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F82C640-E134-44E1-A575-851E54D0F76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F82C640-E134-44E1-A575-851E54D0F76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F82C640-E134-44E1-A575-851E54D0F76B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1019015-DBCD-46CB-B08B-78DB0BB5ADB3}
+	EndGlobalSection
+EndGlobal
